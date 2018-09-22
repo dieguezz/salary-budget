@@ -1,0 +1,30 @@
+{
+  "name": "finance-tools",
+  "version": "1.0.0",
+  "description": "Calcula el coste que le supone a tu empresa contratar a un trabajador en base a su salario bruto anual.",
+  "author": "Diego Segura",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/google-gtag": "^1.0.4",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "vue-numeric": "^2.3.0",
+    "vuex-map-fields": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
